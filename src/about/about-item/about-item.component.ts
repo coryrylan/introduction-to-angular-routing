@@ -8,8 +8,8 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./about-item.component.css']
 })
 export class AboutItemComponent implements OnInit {
-  id: number;
-  paramsSub: any;
+  id!: number;
+  paramsSub!: any;
   
   constructor(private activatedRoute: ActivatedRoute) { }
   
