@@ -4,10 +4,7 @@ import { RouterModule } from '@angular/router';
 
 import { routes } from './app.routes';
 import { AppComponent } from './app.component';
-import { AboutComponent } from './about/about.component';
-import { HomeComponent } from './home/home.component';
-import { AboutItemComponent } from './about/about-item/about-item.component';
-import { AboutHomeComponent } from './about/about-home/about-home.component';
+
 
 @NgModule({
   imports: [

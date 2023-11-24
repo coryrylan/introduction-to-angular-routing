@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
+  standalone: true,
   selector: 'app-about-item',
   templateUrl: './about-item.component.html',
   styleUrls: ['./about-item.component.css']
